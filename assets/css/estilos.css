@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../imgs/fondo.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding: 50px 10px;
+  @media screen and (min-width: 576px) {
+    padding: 75px 100px;
+  }
+}
+
+
+
+.preview-img {
+  width: 100%; /* Ancho fijo */
+  height: 100%; /* Alto fijo */
+  display: inline-block;
+  object-fit:cover;
+}
+
+.card{
+  width:100%;
+}
+
+.audio{
+  scale: 0.03;
+  
+}
